@@ -7,7 +7,7 @@ Kubernetes WireGuard server EZ mode.
 
 ## About
 
-kwg, pronounce "[korg](https://marvelcinematicuniverse.fandom.com/wiki/Korg)", is a tool for deploying and configuring a WireGuard server inside a Kubernetes cluster. The wg server will act as a subnet router to the rest of the cluster so peers can have direct access to pods and services without exposing them publicly.
+[kwg](https://marvelcinematicuniverse.fandom.com/wiki/Korg) is a utility for deploying and configuring a WireGuard server inside a Kubernetes cluster. The wg server will act as a subnet router to the rest of the cluster so peers can have direct access to pods and services without exposing them publicly.
 
 It can be used as an alternative to `kubectl port-forward` or just as a way to access k8s pods through an encrypted tunnel.
 
