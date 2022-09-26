@@ -14,8 +14,6 @@ import (
 	"github.com/tyler-lloyd/kwg/pkg/deployer"
 )
 
-
-
 // deployCmd represents the deploy command
 var deployCmd = &cobra.Command{
 	Use:   "deploy",
